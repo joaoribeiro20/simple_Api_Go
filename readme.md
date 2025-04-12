@@ -11,9 +11,9 @@ API simples para gerenciamento de orçamentos (`budgets`) utilizando Go, Gin e G
 - [ENV] godotenv v1.5.1
 
 ---
-##Get start
+## Get start
 
-```json
+```
 Dcoker 
 docker-compose build
 docker-compose up -d
