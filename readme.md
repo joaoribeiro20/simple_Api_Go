@@ -1,10 +1,37 @@
-# Untitled
-
 # 📘 Simple Budget API
 
 API simples para gerenciamento de orçamentos (`budgets`) utilizando Go, Gin e GORM.
 
+## 🚀 Tecnologias
+
+- [Go](https://golang.org/) go1.23.8
+- [Gin](https://gin-gonic.com/) v1.10.0
+- [GORM](https://gorm.io/) v1.25.12
+- [driver MySQL] v1.5.7
+- [ENV] godotenv v1.5.1
+
 ---
+##Get start
+
+```json
+Dcoker 
+docker-compose build
+docker-compose up -d
+
+Terminal 
+
+go mod init github.com/joaoribeiro20/simplegoapi
+go get -u github.com/gin-gonic/gin
+go get -u gorm.io/gorm
+go get -u gorm.io/driver/mysql
+go get golang.org/x/text@v0.21.0
+
+go mod tidy
+
+go run ./cmd/main.go
+
+
+```
 
 ## 🧩 Endpoints
 
